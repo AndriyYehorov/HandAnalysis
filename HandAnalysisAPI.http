@@ -1,0 +1,29 @@
+@HandAnalysisAPI_HostAddress = http://localhost:5072
+
+POST {{HandAnalysisAPI_HostAddress}}/hand/
+Content-Type: application/json
+
+[
+  {
+    "rank": 5,
+    "suit": 1
+  },
+  {
+    "rank": 1,
+    "suit": 1
+  },
+  {
+    "rank": 2,
+    "suit": 1
+  },
+  {
+    "rank": 4,
+    "suit": 1
+  },
+  {
+    "rank": 3,
+    "suit": 2
+  }
+]
+
+###
